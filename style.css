@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+a {
+    color: inherit;
+    text-decoration:0 ;
+}
+.medsos {
+    padding:5px 0;
+    background-color:red ;
+    padding-inline: 40px 0;
+    
+  
+
+}
+.medsos ul li {
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+}
+.container {
+    width: 90%;
+   
+}
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header h1 {
+   float: left;
+    padding: 15px 0;
+    color:black;
+    padding-inline: 40px 0;
+}
+header ul {
+   float: right;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover {
+    background-color: rgb(6, 253, 6);
+    color: white;
+}
+.active {
+    background-color: rgb(47, 247, 8);
+    color: white;
+}
+.banner {
+    height: 60vh;
+    background-image: url('../Website/4.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner :after {
+    content: '';
+    display: block;
+    position: absolute;
+    top:0 ;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(red, rgb(24, 177, 24), blue, alpha)
+}
+.banner h1 {
+    border: 1px solid;
+}
+section {
+    padding: 50px 0;
+}
+section h3 {
+    text-align: center;
+    padding: 20px 0;
+    color: black;
+    margin-bottom: 20px;
+}
+.about p {
+    text-align: center;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.program {
+    padding: 30px 0;
+    background-color: rgb(236, 235, 235);
+    height: 100vh;
+    text-align: center;
+
+   
+}
+
+
+.contact {
+    padding: 30px 0;
+    background-color: rgb(194, 189, 189);
+    height: 100vh;
+    
+   
+}
+
+
+ 
+   
+  
+
+.col-4 {
+    float: left;
+    padding: 50px 50px;
+    text-align: center;
+  
+    
+    
+}
+.footer {
+    text-align: center;
+    padding:20px 0;
+    background-color: red;
+    color: black;
+}
+.bg-loader { 
+    background-color: #eee;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index:9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-loader .loader {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    border-top-color: red;
+    border-right-color: red;
+    border-bottom-color: red;
+    animation: dulas .15s linear infinite;
+    
+}
+.label {
+    background-color:rgb(17, 17, 17);
+    color: #eee;
+    padding-inline: 30px 0;
+    
+}
+@keyframes dulas {
+    100% {
+        transform: rotate(360deg);
+    }
+}
